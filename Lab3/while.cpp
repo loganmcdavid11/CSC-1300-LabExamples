@@ -6,6 +6,8 @@
 */
 
 #include <iostream>
+
+//Random number generator libraries
 #include <cstdlib>
 #include <ctime>
 using namespace std;
