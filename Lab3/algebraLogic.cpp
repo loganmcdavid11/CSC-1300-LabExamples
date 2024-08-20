@@ -1,4 +1,4 @@
-/***
+/*
  * Name: Logan McDavid
  * Filename: algebraLogic.cpp
  * Date: 5 / 6 / 24
@@ -6,6 +6,7 @@
  * logical operators
 */
 
+//Libraries included
 #include <iostream>
 using namespace std;
 

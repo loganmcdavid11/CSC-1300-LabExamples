@@ -1,12 +1,13 @@
-/**
- * Name: 
- * Filename: 
- * Date: 
- * Purpose: 
+/*
+ * Name: Logan McDavid
+ * Filename: while.cpp
+ * Date: 5 / 6 / 24
+ * Purpose: Demonstrate how to implement
+ * a while loop 
 */
 
+//Libraries included
 #include <iostream>
-
 //Random number generator libraries
 #include <cstdlib>
 #include <ctime>

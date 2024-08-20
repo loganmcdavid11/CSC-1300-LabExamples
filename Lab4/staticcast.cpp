@@ -1,4 +1,4 @@
-/**
+/*
  * Name: Logan McDavid
  * Filename: staticcast.cpp
  * Date: 5 / 7 / 24
@@ -6,6 +6,7 @@
  * static cast 
 */
 
+//Libraries included
 #include <iostream>
 #include <iomanip>
 using namespace std;

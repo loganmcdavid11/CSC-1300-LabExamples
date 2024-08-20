@@ -1,4 +1,4 @@
-/**
+/*
  * Name: Logan McDavid
  * Filename: nestedLoops.cpp
  * Date: 5 / 10 / 24

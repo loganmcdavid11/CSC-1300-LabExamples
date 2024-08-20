@@ -1,4 +1,4 @@
-/***
+/*
  * Name: Logan McDavid
  * Filename: inputAndOutput.cpp
  * Date: 5 / 6 / 24
@@ -6,12 +6,13 @@
  * different ways to manipulate them
 */
 
+//Libraries included
 #include <iostream>
 using namespace std;
 
 int main(){
     //Variables declared 
-    char c1, c2, c3, c4;
+    char c1, c2, c3;
     int total = 0;
 
     //Read in characters

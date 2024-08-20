@@ -1,4 +1,4 @@
-/***
+/*
  * Name: Logan McDavid
  * Filename: nestedForLoop.cpp
  * Date: 6 / 8 / 24
@@ -42,7 +42,7 @@ int main(){
 
     //Calculate average
     numExams = personCount * gradeCount;
-    average = total / numExams;
+    average = static_cast<double>(total) / numExams;
     cout << "\nThe average grade of the class on the exams is " << average << "!\n";
 
     //Display class average depending on grade

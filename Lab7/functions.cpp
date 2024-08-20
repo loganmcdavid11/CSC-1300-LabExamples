@@ -1,61 +1,15 @@
 /*
  * Name: Logan McDavid
  * Filename: functions.cpp
- * Date: 5 / 10 / 24
- * Purpose: Practice using functions of void 
- * and non-void type
+ * Date: 6 / 10 / 24
+ * Purpose: Demonstrate how to separate a program
+ * into multiple files
+ * Demonstrate how to pass variables by reference
+ * in functions
 */
 
-//Libraries included
-#include <iostream>
-#include <cstdlib>
-#include <ctime>
-#include <cctype>
-using namespace std;
+#include "header.h"
 
-//Global variables
-const string fighter1 = "Kendrick Lamar", fighter2 = "Drake", fighter3 = "J.Cole";
-const string weapon1 = "Black Panther's Vibranium Daggers", 
-weapon2 = "a Heart-Shaped Gavel", weapon3 = "Basketball Sharpshooter";
-
-//FUNCTION PROTOTYPES
-int fighter();
-string opponent(int);
-void fight(string, string, int);
-
-//Main funciton
-int main(){
-    //Variables declared
-    int fightValue = 0;
-    string myFighter, opponentName;
-    srand(time(0));  //Necessary in order to randomize numbers
-    
-    //Welcome message
-    cout << "Welcome to fight club! (shhh don't let anyone hear that)\n\n";
-
-    //Call fighter function
-    fightValue = fighter();
-
-    //Call opponent value
-    opponentName = opponent(fightValue);
-
-    //Display fighter based on return value of fighter function
-    if(fightValue == 1){
-        cout << "You have selected " << fighter1 << "!\n";
-        //Call fighter function
-        fight(fighter1, opponentName, fightValue);
-    }else if(fightValue == 2){
-        cout << "You have selected " << fighter2 << "!\n";
-        //Call fighter function
-        fight(fighter2, opponentName, fightValue);
-    }else{
-        cout << "You have selected " << fighter3 << "!\n";
-        //Call fighter function
-        fight(fighter3, opponentName, fightValue);
-    }
-    
-    return 0;
-}
 
 /*
  * Function: fighter
@@ -88,9 +42,8 @@ int fighter(){
  * Function: opponent
  * Purpose: Randomly choose an opponent for our fighter
 */
-string opponent(int fighterValue){
-    int randOpp = 0;
-    string opponent;
+void opponent(int fighterValue, string& opponent, int& randOpp){
+    randOpp = 0;
 
     //Randomly generate who opponent is fighting
     randOpp = rand() % 2;
@@ -117,15 +70,15 @@ string opponent(int fighterValue){
             
     }
 
-    return opponent;
 }
 
 /*
  * Function: fight
  * Purpose: Randomize the fighters opponent and
- * fight round-to-round until one is defeated
+ * fight round-to-round until one is defeated.
+ * Tally wins for fighter or opponent.
 */
-void fight(string fighter, string opponent, int fighterValue){
+void fight(string fighter, string opponent, int fighterValue, int& fightWinCount, bool& oppWin){
     //Variables declared
     int randFighterDmg = 0, randOppDmg = 0;
     int fighterHealth = 30, opponentHealth = 30, round = 1;
@@ -182,13 +135,27 @@ void fight(string fighter, string opponent, int fighterValue){
 
     //Determine which fighter won
     if(fighterHealth == 0 && opponentHealth == 0){
-        cout << "IT IS A DRAW!\n";
+        cout << "IT IS A DRAW!\n\n";
     }else if(fighterHealth > opponentHealth){
         cout << fighter << " HAS BEAT " << opponent << "!\n";
-        cout << "YOU WIN!\n";
+        cout << "YOU WIN!\n\n";
+        //Tally fighter win counter and set opponent win to false
+        fightWinCount++;
+        oppWin = false;
     }else{
         cout << opponent << " HAS BEAT " << fighter << "!\n";
-        cout << "You lose...\n";
+        cout << "You lose...\n\n";
+        //Set opponent win to true
+        oppWin = true;
     }
 }
 
+/**
+ * Function: displayWins
+ * Purpose: Display the total number of wins each fighter has
+*/
+void displayWins(int wins1, int wins2, int wins3){
+    cout << fighter1 << "'s WINS: " << wins1 << endl;
+    cout << fighter2 << "'s WINS: " << wins2 << endl;
+    cout << fighter3 << "'s WINS: " << wins3 << endl;
+}

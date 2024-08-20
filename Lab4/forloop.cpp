@@ -1,4 +1,4 @@
-/**
+/*
  * Name: Logan McDavid
  * Filename: forloop.cpp
  * Date: 5 / 7 / 24
@@ -6,6 +6,7 @@
  * a for loop
 */
 
+//Libraries included
 #include <iostream> 
 using namespace std;
 
@@ -24,7 +25,7 @@ int main(){
         cin.ignore();
         cout << "\nWas meal " << (i+1) << " Breakfast, Lunch, Dinner, or a Snack? ";
         getline(cin, mealType);
-        cout << "How many calories did the meal contain? ";
+        cout << "How many calories did " << mealType << " contain? ";
         cin >> numCals;
         totalCals += numCals;  //Add calories for meal to the total
     }

@@ -1,4 +1,4 @@
-/***
+/*
  * Name: Logan McDavid
  * Filename: inputAndOutput.cpp
  * Date: 5 / 6 / 24
@@ -6,6 +6,7 @@
  * cin.ignore() 
 */
 
+//Libraries included
 #include <iostream>
 using namespace std;
 

@@ -1,4 +1,4 @@
-/***
+/*
  * Name: Logan McDavid
  * Filename: switch.cpp
  * Date: 5 / 6 / 24
@@ -13,20 +13,20 @@ int main(){
     //Variables declared
     int choice = 0;
 
-    //Weapon Menu
+    //Weapon menu
     cout << "Welcome to One-Shot Monster Slayer!\n";
     cout << "  1. Sythe\n";
     cout << "  2. Bow and Arrow\n";
     cout << "  3. Flaming Axe\n";
     cout << "  4. Legendary Scar\n";
     cout << "  5. Infinity Gavel\n";
-    cout << "Please enter the value associated with your weapon of choice:";
+    cout << "Please enter the value associated with your weapon of choice: ";
     cin >> choice;
 
-    //Prompt Monster
+    //Prompt monster
     cout << "\nThe Monster is a RADIOACTIVE POLAR BEAR!\n\n";
 
-    //Switch Statement for choice
+    //Switch statement for choice
     switch(choice){
         //Choice 1
         case 1: 
@@ -56,7 +56,7 @@ int main(){
             cout << "Choosing a weapon from Stardew Valley? Respectable, but"
             << "\nyou dont have any enchants and it is not enough to slay the polar bear. You Lose...";
             break;
-        //Invalid Choice 
+        //Invalid choice 
         default:
             cout << "Failed to enter a valid value. Try harder";
             break;

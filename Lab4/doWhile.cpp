@@ -1,4 +1,4 @@
-/**
+/*
  * Name: Logan McDavid
  * Filename: doWhile.cpp
  * Date: 5 / 7 / 24
@@ -6,6 +6,7 @@
  * a do while loop
 */
 
+//Libraries included
 #include <iostream>
 using namespace std;
 
