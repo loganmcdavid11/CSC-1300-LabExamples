@@ -12,8 +12,9 @@ using namespace std;
 int main(){
     //Variables declared
     int num1 = 0, num2 = 0; 
-    int add = 0, sub = 0, mult = 0, mod = 0, div = 0; 
-    
+    int add = 0, sub = 0, mult = 0, mod = 0, div = 0;  
+
+
 
     //"The Math Man" not scary at all...
     cout << "        ___________        \n";

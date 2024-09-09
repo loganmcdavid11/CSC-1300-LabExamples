@@ -16,7 +16,7 @@ int main(){
     int age = 0, gradYear = 0;
     double gpa = 0;
 
-    //Read im name
+    //Read in name
     cout << "What is your name? ";
     getline(cin, name);
 
