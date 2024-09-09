@@ -35,6 +35,7 @@ int main(){
     cout << "What year do you expect to graduate? ";
     cin >> gradYear;
 
+    //Read in GPA
     cout << "What is your current GPA? ";
     cin >> gpa;
 
