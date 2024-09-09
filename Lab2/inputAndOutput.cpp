@@ -14,6 +14,7 @@ int main(){
     //Varables declared
     string name, school, degree;
     int age = 0, gradYear = 0;
+    double gpa = 0;
 
     //Read im name
     cout << "What is your name? ";
@@ -34,6 +35,9 @@ int main(){
     cout << "What year do you expect to graduate? ";
     cin >> gradYear;
 
+    cout << "What is your current GPA? ";
+    cin >> gpa;
+
     //cin.ignore necessary when going from cin -> getline
     cin.ignore();
 
@@ -43,7 +47,7 @@ int main(){
 
     //Output Results
     cout << "\n\n" << name << " is a " << age << " year old student at " 
-    << school << " in the class of " << gradYear << " with a degree in "
+    << school << " in the class of " << gradYear << " with a GPA of " << gpa <<" and a degree in "
     << degree << "!" << endl;
 
 
