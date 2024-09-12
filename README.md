@@ -24,6 +24,7 @@ Welcome to the repository! This collection of lab examples is tailored for stude
   - Character manipulation
   - Input/output operations
   - Use of `cin.ignore()`
+  - Arithmetic operations
 
 ### Lab 3: Control Flow with If Statements and Loops
 - **Topics Covered:**
