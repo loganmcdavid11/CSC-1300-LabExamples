@@ -32,6 +32,7 @@ Welcome to the repository! This collection of lab examples is tailored for stude
   - Logical operators
   - Switch statements
   - While loops
+  - Random Number Generator
 
 ### Lab 4: Advanced Loops and Static Type Casting
 - **Topics Covered:**
