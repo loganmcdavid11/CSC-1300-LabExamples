@@ -6,7 +6,7 @@ Welcome to the repository! This collection of lab examples is tailored for stude
 ---
 
 ## Table of Contents
-- [Lab 2: Basic I/O and Character Manipulation](#lab-2-basic-io-and-character-manipulation)
+- [Lab 2: Basic I/O, Arithmetic Operations, & Character Manipulation](#lab-2-basic-io-arithmetic-operations--character-manipulation)
 - [Lab 3: Control Flow with If Statements and Loops](#lab-3-control-flow-with-if-statements-and-loops)
 - [Lab 4: Advanced Loops and Type Casting](#lab-4-advanced-loops-and-static-type-casting)
 - [Lab 5: Mastering Nested Loops](#lab-5-mastering-nested-loops)
@@ -19,11 +19,12 @@ Welcome to the repository! This collection of lab examples is tailored for stude
 
 ---
 
-### Lab 2: Basic I/O and Character Manipulation
+### Lab 2: Basic I/O, Arithmetic Operations, & Character Manipulation
 - **Topics Covered:**
   - Character manipulation
   - Input/output operations
   - Use of `cin.ignore()`
+  - Arithmetic operations
 
 ### Lab 3: Control Flow with If Statements and Loops
 - **Topics Covered:**
@@ -31,6 +32,7 @@ Welcome to the repository! This collection of lab examples is tailored for stude
   - Logical operators
   - Switch statements
   - While loops
+  - Random Number Generator
 
 ### Lab 4: Advanced Loops and Static Type Casting
 - **Topics Covered:**
