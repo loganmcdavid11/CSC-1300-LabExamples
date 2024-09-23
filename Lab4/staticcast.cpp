@@ -14,7 +14,7 @@ using namespace std;
 int main(){
     //Variables declared
     int intSum = 0;
-    double doubleSum = 0, num1 = 0, num2 = 0;
+    double doubleProd = 0, num1 = 0, num2 = 0;
 
     //Round decimal to 100th decimal place 
     cout << fixed << setprecision(2);
@@ -27,12 +27,12 @@ int main(){
     cin >> num2;
     
     //Find product
-    doubleSum = num1 * num2;
-    cout << "The product of " << num1 << " and " << num2 << " is " << doubleSum
+    doubleProd = num1 * num2;
+    cout << "The product of " << num1 << " and " << num2 << " is " << doubleProd
     << " (Rounded to the 100th decimal place)\n\n"; 
 
     //Convert decimal value to integer value 
-    intSum = static_cast<int>(doubleSum);
+    intSum = static_cast<int>(doubleProd);
     cout << "The product rounded down is " << intSum;
     
 
