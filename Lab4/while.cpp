@@ -20,7 +20,7 @@ int main(){
     //Random number generator
     srand(time(0));
 
-    //Randon number 1-10
+    //Random number 1-10
     randNum = rand()%(10-1+1)+1;
 
     cout << "I am thinking of a number 1-10.\n";
