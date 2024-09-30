@@ -7,8 +7,8 @@ Welcome to the repository! This collection of lab examples is tailored for stude
 
 ## Table of Contents
 - [Lab 2: Basic I/O, Arithmetic Operations, and Character Manipulation](#lab-2-basic-io-arithmetic-operations-and-character-manipulation)
-- [Lab 3: Branching, RNG and Logical Operators](#lab-3-branching-rng-and-logical-operators)
-- [Lab 4: Loops and Type Casting](#lab-4-loops-and-static-type-casting)
+- [Lab 3: Branching and Logical Operators](#lab-3-branching-and-logical-operators)
+- [Lab 4: Loops, RNG, and Type Casting](#lab-4-loops-rng-and-static-type-casting)
 - [Lab 5: Mastering Nested Loops](#lab-5-mastering-nested-loops)
 - [Lab 6: Introduction to Functions](#lab-6-introduction-to-functions)
 - [Lab 7: Working with References and Header Files](#lab-7-working-with-references-and-header-files)
@@ -26,16 +26,16 @@ Welcome to the repository! This collection of lab examples is tailored for stude
   - Use of `cin.ignore()`
   - Arithmetic operations
 
-### Lab 3: Branching, RNG and Logical Operators
+### Lab 3: Branching And Logical Operators
 - **Topics Covered:**
   - If statements
   - Logical operators
   - Switch statements
-  - Random Number Generator
 
-### Lab 4: Loops and Static Type Casting
+### Lab 4: Loops, RNG, and Static Type Casting
 - **Topics Covered:**
   - While loops
+    - Random Number Generator
   - Do-while loops
   - For loops
   - Static casts
