@@ -47,7 +47,6 @@ Welcome to the repository! This collection of lab examples is tailored for stude
 ### Lab 6: Introduction to Functions
 - **Topics Covered:**
   - Functions
-  - Nested for loops
 
 ### Lab 7: Working with References and Header Files
 - **Topics Covered:**
