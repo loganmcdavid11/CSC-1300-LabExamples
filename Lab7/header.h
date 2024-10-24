@@ -10,7 +10,7 @@
 
 //Header guards
 #ifndef FUNCTIONS_H
-#define FUNCTIONS_HJ
+#define FUNCTIONS_H
 
 //Libraries included
 #include <iostream>
