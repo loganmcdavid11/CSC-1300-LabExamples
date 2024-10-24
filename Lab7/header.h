@@ -9,8 +9,8 @@
 */
 
 //Header guards
-#ifndef FUNCTIONS_H
-#define FUNCTIONS_H
+#ifndef HEADER_H
+#define HEADER_H
 
 //Libraries included
 #include <iostream>
